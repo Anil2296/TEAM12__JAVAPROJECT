@@ -2,13 +2,13 @@ class Fibo
 {
 	public static void main(String args[])
 	{
-		int a=0,b=1,c=0,i,x=55;
-                 System.out.print(a+" "+b);
+		int d=0,b=1,c=0,i,x=55;
+                 System.out.print(d+" "+b);
 		while(c<=x)
 		{
-			c=a+b;
+			c=d+b;
 			System.out.print(" "+c);
-			a=b;
+			d=b;
 			b=c;
 		}
 		
